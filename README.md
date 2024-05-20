@@ -1,10 +1,10 @@
 # Chemometrics-Web-Apps-Data_Handling_app
 App to perform sample and variable preprocessing and general descriptive analysis
 
-# Chemometrics-Web-Apps (LEAMS/UERJ)
+# Chemometrics-Web-Apps (LTAP/UERJ)
 ![image](https://static.wixstatic.com/media/1f581c_8d6a8a367d8042509d4843bf27ddd8d4~mv2.jpg/v1/fill/w_979,h_396,al_c,q_85,enc_auto/1f581c_8d6a8a367d8042509d4843bf27ddd8d4~mv2.jpg)
 
-This repository is the colection of all chemometrics apps developed by our group, with the help of the LEAMS team. You can contact us through [our website](https://www.leamsuerj.com/) or by the developers e-mails:
+This repository is the colection of all chemometrics apps developed by our group, with the help of the LTAP team. You can contact us through [our website](https://www.leamsuerj.com/) or by the developers e-mails:
 
 - Bernardo Cardeal (bernardocardeal@outlook.com)
 - Licarion Pinto (licarion@gmail.com)
