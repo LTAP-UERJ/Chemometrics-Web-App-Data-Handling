@@ -10,7 +10,8 @@ This repository is the colection of all chemometrics apps developed by our group
 - Licarion Pinto (licarion@gmail.com)
 - Aderval Luna (adsluna@gmail.com)
 
-New release: V2:
+## Data Handling: Chemometrics R-Web App part 1 New release: V2 ![image](https://img.shields.io/badge/Version-DH--1.2-blueviolet)
+
 New Features and Improvements
 Spectral Pre-treatment Refactoring – Introduction of "Diagnostic Tools"
 The former "Interactive Plots" tab within the Spectral Pre-treatment section has been replaced by a new tab called "Diagnostic Tools".
