@@ -10,6 +10,12 @@ This repository is the colection of all chemometrics apps developed by our group
 - Licarion Pinto (licarion@gmail.com)
 - Aderval Luna (adsluna@gmail.com)
 
+## Data Handling: Chemometrics R-Web App part 1 New release: V3 ![image](https://img.shields.io/badge/Version-DH--3.0-blueviolet)
+
+New Features and Improvements
+- **New Preprocessing Option:** Added median centering tool under the *Variable Preprocessing* tab. This complements existing mean centering and scaling options, providing a more robust normalization workflow.
+- **Data Transposition Tool:** Introduced a new transposition feature that allows switching between samples-as-rows and samples-as-columns configurations, improving compatibility with diverse dataset formats.
+
 ## Data Handling: Chemometrics R-Web App part 1 New release: V2 ![image](https://img.shields.io/badge/Version-DH--2.0-blueviolet)
 
 New Features and Improvements
