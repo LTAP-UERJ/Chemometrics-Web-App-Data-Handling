@@ -3,70 +3,84 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![Version](https://img.shields.io/badge/Release-V3-orange)
 ![License](https://img.shields.io/badge/License-Patented-blue)
+![R](https://img.shields.io/badge/Language-R-blue.svg)
 
-Esta aplicação, desenvolvida pelo **LTAP-UERJ**, é uma ferramenta completa para o tratamento, pré-processamento e visualização de dados quimiométricos.
-
-🔗 **Acesse a versão online:** [Clique aqui](https://ltap.shinyapps.io/data_handling/)  
-📖 **Artigo Científico:** [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)  
-📝 **Feedback:** Ajude-nos a melhorar nos enviando sugestões para o ltapuerj@gmail.com
+Developed by the **Process Analytical Technology Laboratory (LTAP-UERJ)**, this application is a comprehensive tool for the treatment, preprocessing, and visualization of chemometric data.
 
 ---
 
-## 🆕 Novidades das Versões (Change Log)
+## 🔗 Quick Links
 
-### **V3 - New Release**
-* **Diagnostic Tools:** A aba "Interactive Plots" foi substituída pela seção "Diagnostic Tools", que agora integra:
-    * **Comparative PCA:** Ferramenta simplificada para análise exploratória e diagnóstica.
-    * **Argument Restrictions:** Simplificação de parâmetros para facilitar o uso no pré-tratamento.
-* **Variable Preprocessing:** Adicionada a opção de **Median Centering** (Centramento na Mediana), tornando o fluxo de normalização mais robusto.
-* **Data Transposition Tool:** Nova funcionalidade para alternar entre amostras em linhas ou colunas.
+* **Online Version:** [Access the Web App](https://ltap.shinyapps.io/data_handling/)
+* **Scientific Article:** [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)
+* **Support/Feedback:** [ltapuerj@gmail.com](mailto:ltapuerj@gmail.com)
+
+---
+
+## 🆕 Version History (Change Log)
+
+### **V3 - Current Release**
+* **Diagnostic Tools:** The "Interactive Plots" tab has been upgraded to the "Diagnostic Tools" section, integrating:
+    * **Comparative PCA:** Simplified tool for exploratory and diagnostic analysis.
+    * **Argument Restrictions:** Streamlined parameters for easier pretreatment configuration.
+* **Variable Preprocessing:** Added **Median Centering** for more robust normalization workflows.
+* **Data Transposition Tool:** New functionality to easily switch between samples in rows or columns.
 
 ### **V2 - Improved Compatibility**
-* **Correção de Crashes:** Omissão automática de testes de normalidade em classes com menos de 5 amostras.
-* **Refatoração Espectral:** Introdução inicial da lógica de ferramentas de diagnóstico.
+* **Stability:** Automatic omission of normality tests in classes with fewer than 5 samples to prevent crashes.
+* **Spectral Refactoring:** Initial implementation of diagnostic tool logic.
 
 ---
 
-## 🚀 Funcionalidades Principais
+## 🚀 Key Features
 
-* **Descriptive Analysis:** Informações gerais, análise por variável/classe e testes de normalidade multivariada.
-* **Data Imputation:** Substituições simples, Random Forest, KNN, SVD e PCA Imputation (Nipals, Bayesian, Probabilistic).
+* **Descriptive Analysis:** General statistics, variable/class analysis, and multivariate normality tests.
+* **Data Imputation:** Simple substitutions, Random Forest, KNN, SVD, and PCA Imputation (Nipals, Bayesian, Probabilistic).
 * **Spectral Transformation:**
-    * Suavização e Derivadas (Savitzky-Golay, Moving Average).
-    * Correção de Espalhamento (SNV e MSC).
-    * Correção de Linha de Base (ALS, Polynomial, Low-Pass FFT, etc.).
-    * Alinhamento de Picos (Parametric Time Warping).
-* **Spectral Visualization:** Geração de imagens 2D personalizadas e gráficos interativos.
-* **Variable Preprocessing:** Auto-escalonamento, Centramento, Transformações Box-Cox e Yeo-Johnson.
+    * Smoothing & Derivatives (Savitzky-Golay, Moving Average).
+    * Scatter Correction (SNV and MSC).
+    * Baseline Correction (ALS, Polynomial, Low-Pass FFT, etc.).
+    * Peak Alignment (Parametric Time Warping).
+* **Spectral Visualization:** High-quality 2D images and interactive plots.
+* **Variable Preprocessing:** Auto-scaling, Mean Centering, Median Centering, Box-Cox, and Yeo-Johnson transformations.
 
 ---
 
-## 💾 Instalação e Licenciamento
+## 💾 Installation & Usage
 
-### **Modelos de Distribuição**
-* **Versão 1.0:** Código aberto e acesso livre.
-* **Versões V2 e V3:** Disponíveis como executáveis em regime **Trial de 30 dias**. Após o período de teste, o uso requer licenciamento junto ao LTAP-UERJ.
+### **Distribution Models**
+* **Version 1.0:** Open source and free access.
+* **Versions V2 & V3:** Available as executables under a **30-day Trial** period. Continued use requires licensing from LTAP-UERJ.
 
-### **Instalação via R/RStudio**
-1. Instale o R e RStudio.
-2. Baixe e execute o arquivo `Data_handling_Packages.R` deste repositório para instalar as dependências.
-3. Baixe o código da aplicação e clique em **"Run App"**.
+### **How to Run (R/RStudio)**
+1.  **Prerequisites:** Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).
+2.  **Dependencies:** Download and run the `Data_handling_Packages.R` script from this repository:
+    ```r
+    source("Data_handling_Packages.R")
+    ```
+3.  **Launch:** Open the application file in RStudio and click the **"Run App"** button at the top of the editor.
 
 ---
 
-## ⚖️ Aviso Legal e Propriedade Intelectual
+## ⚖️ Legal Notice & Intellectual Property
 
-**Aviso de Patente:** Este software e suas interfaces são protegidos por patente. A documentação comprobatória encontra-se nos arquivos deste repositório. Todos os direitos reservados ao **LTAP-UERJ**.
+> [!IMPORTANT]
+> **Patent Notice:** This software and its interfaces are protected by patent. All rights are reserved to **LTAP-UERJ**. Supporting documentation is available within this repository.
 
-**Isenção de Responsabilidade:** O uso deste software é de inteira responsabilidade do usuário. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo.
+* **Disclaimer:** LTAP-UERJ is not responsible for any damages resulting from the use of this interface or the interpretation of the generated results. The software is provided "as is".
+* **Academic Citation:** If this software is useful for your research, please cite:
+    * *Chemometrics and Intelligent Laboratory Systems, 2022. DOI: [10.1016/j.chemolab.2022.104654](https://doi.org/10.1016/j.chemolab.2022.104654)*
 
-**Citação Acadêmica:** 
-Se este software for útil para sua pesquisa, por favor, faça a citação do artigo [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)  
+---
 
-## 📧 Contato e Equipe
-* **Bernardo Cardeal:** bernardocardeal@outlook.com
-* **Licarion Pinto:** licarion@gmail.com
-* **Aderval Luna:** adsluna@gmail.com
+## 📧 Contact & Team
 
-## Usage
-After the instalation process the app usage consist in simple open the app in Rstudio enviroment and click the Run App button.
+**Process Analytical Technology Laboratory (LTAP/UERJ)**
+
+| Name | Email |
+| :--- | :--- |
+| **Bernardo Cardeal** | bernardocardeal@outlook.com |
+| **Licarion Pinto** | licarion@gmail.com |
+| **Aderval Luna** | adsluna@gmail.com |
+
+---
