@@ -62,6 +62,10 @@ Esta aplicação, desenvolvida pelo **LTAP-UERJ**, é uma ferramenta completa pa
 
 **Citação:** > *Segundo Neto, J. L. P. et al. Chemometrics Web App - Data Handling. LTAP-UERJ, 2026.*
 
+## 📧 Contato e Equipe
+* **Bernardo Cardeal:** bernardocardeal@outlook.com
+* **Licarion Pinto:** licarion@gmail.com
+* **Aderval Luna:** adsluna@gmail.com
 
 ## Usage
 After the instalation process the app usage consist in simple open the app in Rstudio enviroment and click the Run App button.
