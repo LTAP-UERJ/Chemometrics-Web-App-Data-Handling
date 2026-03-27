@@ -13,16 +13,19 @@ This repository is the colection of all chemometrics apps developed by our group
 ## Data Handling: Chemometrics R-Web App part 1 New release: V3 ![image](https://img.shields.io/badge/Version-DH--3.0-blueviolet)
 
 New Features and Improvements
+- The former "Interactive Plots" tab within the Spectral Pre-treatment section has been replaced by a new tab called "Diagnostic Tools".
+- This new tab now includes: Comparative PCA (Principal Component Analysis): A simplified tool for exploratory and diagnostic analysis. Argument Restrictions: The tool has restricted arguments to simplify its use within the pre-treatment.
+- The former "Interactive Plots" tab (now integrated as a diagnostic tool).
+- New Preprocessing Option: Added median centering tool under the Variable Preprocessing tab. This complements existing mean centering and scaling options, providing a more robust normalization workflow.
 - **New Preprocessing Option:** Added median centering tool under the *Variable Preprocessing* tab. This complements existing mean centering and scaling options, providing a more robust normalization workflow.
 - **Data Transposition Tool:** Introduced a new transposition feature that allows switching between samples-as-rows and samples-as-columns configurations, improving compatibility with diverse dataset formats.
 
 ## Data Handling: Chemometrics R-Web App part 1 New release: V2 ![image](https://img.shields.io/badge/Version-DH--2.0-blueviolet)
 
 New Features and Improvements
+Improved Compatibility: This specific version omits normality tests (cálculo de normalidade) to allow calculations on classes with fewer than 5 samples without causing system crashes.
+Argument Restrictions: Restricted arguments were introduced to simplify the use of analysis tools within the pre-treatment phase.
 - Spectral Pre-treatment Refactoring – Introduction of "Diagnostic Tools"
-- The former "Interactive Plots" tab within the Spectral Pre-treatment section has been replaced by a new tab called "Diagnostic Tools".
-- This new tab now includes: Comparative PCA (Principal Component Analysis): A simplified tool for exploratory and diagnostic analysis. Argument Restrictions: The tool has restricted arguments to simplify its use within the pre-treatment.
-- The former "Interactive Plots" tab (now integrated as a diagnostic tool).
 
 ## Data Handling: Chemometrics R-Web App part 1 ![image](https://img.shields.io/badge/Version-DH--1.2-blueviolet)
 Manuscript link: https://www.sciencedirect.com/science/article/pii/S0169743922002076
