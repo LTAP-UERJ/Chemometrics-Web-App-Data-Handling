@@ -53,12 +53,7 @@ Developed by the **Process Analytical Technology Laboratory (LTAP-UERJ)**, this 
 * **Versions V2 & V3:** Available as executables under a **30-day Trial** period. Continued use requires licensing from LTAP-UERJ.
 
 ### **How to Run (R/RStudio)**
-1.  **Prerequisites:** Install [R](https://cran.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/).
-2.  **Dependencies:** Download and run the `Data_handling_Packages.R` script from this repository:
-    ```r
-    source("Data_handling_Packages.R")
-    ```
-3.  **Launch:** Open the application file in RStudio and click the **"Run App"** button at the top of the editor.
+After the installation process, simply open the application in the RStudio environment and click the "Run App" button.
 
 ---
 
