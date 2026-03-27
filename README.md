@@ -6,7 +6,7 @@
 
 Esta aplicação, desenvolvida pelo **LTAP-UERJ**, é uma ferramenta completa para o tratamento, pré-processamento e visualização de dados quimiométricos.
 
-🔗 **Acesse a versão online:** [Clique aqui](https://licarion.shinyapps.io/Data_Handling_app/)  
+🔗 **Acesse a versão online:** [Clique aqui](https://ltap.shinyapps.io/data_handling/)  
 📖 **Artigo Científico:** [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)  
 📝 **Feedback:** Ajude-nos a melhorar respondendo ao nosso [Questionário](https://docs.google.com/forms/d/e/1FAIpQLSc6W8A2Xm4zE3v4H7qE1I_XqXUv_V-l_o3v8z_l_o3v8z_l_o3v/viewform)
 
