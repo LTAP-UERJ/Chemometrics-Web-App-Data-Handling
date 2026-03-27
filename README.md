@@ -1,107 +1,67 @@
-# Chemometrics-Web-Apps-Data_Handling_app
-App to perform sample and variable preprocessing and general descriptive analysis
+# Chemometrics Web App - Data Handling (Part 1)
 
-# Chemometrics-Web-Apps (LTAP/UERJ)
-![image](https://static.wixstatic.com/media/1f581c_8d6a8a367d8042509d4843bf27ddd8d4~mv2.jpg/v1/fill/w_979,h_396,al_c,q_85,enc_auto/1f581c_8d6a8a367d8042509d4843bf27ddd8d4~mv2.jpg)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![Version](https://img.shields.io/badge/Release-V3-orange)
+![License](https://img.shields.io/badge/License-Patented-blue)
 
-This repository is the colection of all chemometrics apps developed by our group, with the help of the LTAP team. You can contact us through [our website](https://www.ltapuerj.com.br/) or by the developers e-mails:
+Esta aplicação, desenvolvida pelo **LTAP-UERJ**, é uma ferramenta completa para o tratamento, pré-processamento e visualização de dados quimiométricos.
 
-- Bernardo Cardeal (bernardocardeal@outlook.com)
-- Licarion Pinto (licarion@gmail.com)
-- Aderval Luna (adsluna@gmail.com)
+🔗 **Acesse a versão online:** [Clique aqui](https://licarion.shinyapps.io/Data_Handling_app/)  
+📖 **Artigo Científico:** [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)  
+📝 **Feedback:** Ajude-nos a melhorar respondendo ao nosso [Questionário](https://docs.google.com/forms/d/e/1FAIpQLSc6W8A2Xm4zE3v4H7qE1I_XqXUv_V-l_o3v8z_l_o3v8z_l_o3v/viewform)
 
-## Data Handling: Chemometrics R-Web App part 1 New release: V3 ![image](https://img.shields.io/badge/Version-DH--3.0-blueviolet)
+---
 
-New Features and Improvements
-- The former "Interactive Plots" tab within the Spectral Pre-treatment section has been replaced by a new tab called "Diagnostic Tools".
-- This new tab now includes: Comparative PCA (Principal Component Analysis): A simplified tool for exploratory and diagnostic analysis. Argument Restrictions: The tool has restricted arguments to simplify its use within the pre-treatment.
-- The former "Interactive Plots" tab (now integrated as a diagnostic tool).
-- New Preprocessing Option: Added median centering tool under the Variable Preprocessing tab. This complements existing mean centering and scaling options, providing a more robust normalization workflow.
-- **New Preprocessing Option:** Added median centering tool under the *Variable Preprocessing* tab. This complements existing mean centering and scaling options, providing a more robust normalization workflow.
-- **Data Transposition Tool:** Introduced a new transposition feature that allows switching between samples-as-rows and samples-as-columns configurations, improving compatibility with diverse dataset formats.
+## 🆕 Novidades das Versões (Change Log)
 
-## Data Handling: Chemometrics R-Web App part 1 New release: V2 ![image](https://img.shields.io/badge/Version-DH--2.0-blueviolet)
+### **V3 - New Release**
+* **Diagnostic Tools:** A aba "Interactive Plots" foi substituída pela seção "Diagnostic Tools", que agora integra:
+    * **Comparative PCA:** Ferramenta simplificada para análise exploratória e diagnóstica.
+    * **Argument Restrictions:** Simplificação de parâmetros para facilitar o uso no pré-tratamento.
+* **Variable Preprocessing:** Adicionada a opção de **Median Centering** (Centramento na Mediana), tornando o fluxo de normalização mais robusto.
+* **Data Transposition Tool:** Nova funcionalidade para alternar entre amostras em linhas ou colunas.
 
-New Features and Improvements
-Improved Compatibility: This specific version omits normality tests (cálculo de normalidade) to allow calculations on classes with fewer than 5 samples without causing system crashes.
-Argument Restrictions: Restricted arguments were introduced to simplify the use of analysis tools within the pre-treatment phase.
-- Spectral Pre-treatment Refactoring – Introduction of "Diagnostic Tools"
+### **V2 - Improved Compatibility**
+* **Correção de Crashes:** Omissão automática de testes de normalidade em classes com menos de 5 amostras.
+* **Refatoração Espectral:** Introdução inicial da lógica de ferramentas de diagnóstico.
 
-## Data Handling: Chemometrics R-Web App part 1 ![image](https://img.shields.io/badge/Version-DH--1.2-blueviolet)
-Manuscript link: https://www.sciencedirect.com/science/article/pii/S0169743922002076
-- This app is currently available for online usage in [this link](https://ltap.shinyapps.io/data_handling/)
-- Complete change log can be seen inside the code
- - Please answer this [questionnaire](https://docs.google.com/forms/d/1js1Wyf81-8oG6u2w3F9lswMV3MUjX6srkBYWkkOj7Zw/edit?ts=633b6a1f) to help us improve the interface
-- Features:
-  - Descriptive analysis:
-    - General data information
-    - Per variable Analysis (generaly or by class)
-    - Multivariate normality testing
-    - Interactive Plots
-      - Can be plotted generaly or by class (if provided)
-    - Missing data analysis
-    - Correlation Heatmap
+---
 
-  - Data Imputation:
-    - Simple substituitions (mean, median and 0's)
-    - Random-forest
-    - K-Nearest-Neighbours
-    - Single Value Decomposition (SVD)
-    - PCA imputation (Nipals, Bayesian and Probabilistic)
+## 🚀 Funcionalidades Principais
 
-  - Spectral Transformation:
-    - Select region of interest
-    - Smoothing and Derivative (Mooving avarage, simple derivatives and Savitzky-Golay)
-    - Scatter Correction (SNV and MSC)
-    - Baseline Correction (Offset, Polynomial, ALS, Low-Pass Fast FT filtering, Robust Baseline Estimation and IRLS)
-    - Normalization (Maximum intensity and by Internal Standard)
-    - Peak Alignment (Parametric time Warping)
+* **Descriptive Analysis:** Informações gerais, análise por variável/classe e testes de normalidade multivariada.
+* **Data Imputation:** Substituições simples, Random Forest, KNN, SVD e PCA Imputation (Nipals, Bayesian, Probabilistic).
+* **Spectral Transformation:**
+    * Suavização e Derivadas (Savitzky-Golay, Moving Average).
+    * Correção de Espalhamento (SNV e MSC).
+    * Correção de Linha de Base (ALS, Polynomial, Low-Pass FFT, etc.).
+    * Alinhamento de Picos (Parametric Time Warping).
+* **Spectral Visualization:** Geração de imagens 2D personalizadas e gráficos interativos.
+* **Variable Preprocessing:** Auto-escalonamento, Centramento, Transformações Box-Cox e Yeo-Johnson.
 
-  - Spectral Visualization
-    - Custom spectral image 2D generation (view by class, classes means, select axis names and image definition...)
-    - Spectral Interactive Plot
+---
 
-  - Variables Preprocessing
-    - Simple Operations (mean centering, scaling, autoscaling, logarithmic transformation and frobenius normalization)
-    - Normality inducing transformations (Box-Cox and Yeo-Jhonson)   
-    
-## Installation
+## 💾 Instalação e Licenciamento
 
-It is necessary to have the R and RStudio previously installed in your computer.
+### **Modelos de Distribuição**
+* **Versão 1.0:** Código aberto e acesso livre.
+* **Versões V2 e V3:** Disponíveis como executáveis em regime **Trial de 30 dias**. Após o período de teste, o uso requer licenciamento junto ao LTAP-UERJ.
 
-### Packages and Dependencies Installation
-- Search the GitHub directory for the .R file contaning the packages for the required app (the names of the files for dependencies and the app itself should be similar). For Data_Handling_app this file is called Data_handling_Packages.R
+### **Instalação via R/RStudio**
+1. Instale o R e RStudio.
+2. Baixe e execute o arquivo `Data_handling_Packages.R` deste repositório para instalar as dependências.
+3. Baixe o código da aplicação e clique em **"Run App"**.
 
-   > - Open the file
-   > - Righ-Click the "raw" option
-   > - Click "Save link as" and change the file extension from ".txt" to ".R"
-   > - Open the file in RStudio and run all of it
+---
 
-### App Installation
+## ⚖️ Aviso Legal e Propriedade Intelectual
 
-#### From GitHub:
-- Install the required packages as explained above, then:
+**Aviso de Patente:** Este software e suas interfaces são protegidos por patente. A documentação comprobatória encontra-se nos arquivos deste repositório. Todos os direitos reservados ao **LTAP-UERJ**.
 
-   > - Open the file
-   > - Righ-Click the "raw" option
-   > - Click "Save link as" and change the file extension from ".txt" to ".R" 
-   > - Open the downloaded file into RStudio then click "Run App" on the top righ corner of the file
+**Isenção de Responsabilidade:** O uso deste software é de inteira responsabilidade do usuário. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo.
 
-#### From .txt file:
-- Install the required packages as explained above, then:
-- Open RStudio the go to:
+**Citação:** > *Segundo Neto, J. L. P. et al. Chemometrics Web App - Data Handling. LTAP-UERJ, 2026.*
 
-  > - File
-  > - New File
-  > - Shiny Web App 
-  > - Paste the code then click "Run App" on the top righ corner of the file
-- Then erase all the file content and copy the code into the new file
-- When running the app for the first time, an option to install the required packages should appear ate the top of the window if you did not install them previously.
-- If you have problems with the encoding when running the app, go to: 
-  
-  > - File
-  > - Save with encoding
-  > - UTF-8
 
 ## Usage
 After the instalation process the app usage consist in simple open the app in Rstudio enviroment and click the Run App button.
