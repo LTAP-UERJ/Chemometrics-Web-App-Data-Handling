@@ -1,0 +1,5 @@
+The Dimensionality Reduction app (version 1.0.0) is now available for download. You can access it through this Google Drive link:
+
+EXE versão 01: https://drive.google.com/file/d/1G8k3MMSOT8WCiQwypM4Pge79jvPO9j82/view?usp=sharing
+EXE versão 01 sem calculos de normalizada para menos de 5 amostras por classe: 
+EXE versão 03: https://drive.google.com/file/d/1xei0H2A0SX05BBw75vQVbH1qXxrTRfYL/view?usp=sharing
