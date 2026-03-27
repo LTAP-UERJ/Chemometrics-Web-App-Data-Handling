@@ -48,12 +48,12 @@ Developed by the **Process Analytical Technology Laboratory (LTAP-UERJ)**, this 
 
 ## 💾 Installation & Usage
 
+### **How to Run (R/RStudio)**
+After the installation process, simply open the application in the RStudio environment and click the "Run App" button.
+
 ### **Distribution Models**
 * **Version 1.0:** Open source and free access.
 * **Versions V2 & V3:** Available as executables under a **30-day Trial** period. Continued use requires licensing from LTAP-UERJ.
-
-### **How to Run (R/RStudio)**
-After the installation process, simply open the application in the RStudio environment and click the "Run App" button.
 
 ---
 
