@@ -60,7 +60,8 @@ Esta aplicação, desenvolvida pelo **LTAP-UERJ**, é uma ferramenta completa pa
 
 **Isenção de Responsabilidade:** O uso deste software é de inteira responsabilidade do usuário. O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo.
 
-**Citação:** > *Segundo Neto, J. L. P. et al. Chemometrics Web App - Data Handling. LTAP-UERJ, 2026.*
+**Citação Acadêmica:** 
+Se este software for útil para sua pesquisa, por favor, faça a citação do artigo [ScienceDirect - Chemometrics and Intelligent Laboratory Systems](https://www.sciencedirect.com/science/article/pii/S0169743922002076)  
 
 ## 📧 Contato e Equipe
 * **Bernardo Cardeal:** bernardocardeal@outlook.com
