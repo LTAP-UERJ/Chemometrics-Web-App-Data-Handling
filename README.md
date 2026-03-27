@@ -62,7 +62,7 @@ After the installation process, simply open the application in the RStudio envir
 > [!IMPORTANT]
 > **Patent Notice:** This software and its interfaces are protected by patent. All rights are reserved to **LTAP-UERJ**. Supporting documentation is available within this repository.
 
-* **Disclaimer:** LTAP-UERJ is not responsible for any damages resulting from the use of this interface or the interpretation of the generated results. The software is provided "as is".
+* **Disclaimer:** LTAP-UERJ is not responsible for any damages resulting from the use of this interface or the interpretation of the generated results. The software is provided "as is", without warranties of any kind.
 * **Academic Citation:** If this software is useful for your research, please cite:
     * *Chemometrics and Intelligent Laboratory Systems, 2022. DOI: [10.1016/j.chemolab.2022.104654](https://doi.org/10.1016/j.chemolab.2022.104654)*
 
