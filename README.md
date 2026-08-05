@@ -29,8 +29,6 @@ This module was developed by the chemometrics research team at **LTAP-UERJ**:
 | **[Bernardo Cardeal Darzé](http://lattes.cnpq.br/0590620499595344)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/0590620499595344) |
 | **[José Licarion Pinto Segundo Neto](http://lattes.cnpq.br/5267552018296169)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/5267552018296169) |
 | **[Aderval Severino Luna](http://lattes.cnpq.br/0294676847895948)** | UERJ | [Lattes Profile](http://lattes.cnpq.br/0294676847895948) |
-| **Paulo Henrique Couto Simões** | LTAP — UERJ | [Email](mailto:ph.simoes@gmail.com) |
-| **Julio Cesar Siqueira** | LTAP — UERJ | [Email](mailto:juliosiqueira86@hotmail.com) |
 | **I. C. A. Lima** | LTAP — UERJ | [Email](mailto:ltapuerj@gmail.com) |
 
 ---
@@ -39,8 +37,8 @@ This module was developed by the chemometrics research team at **LTAP-UERJ**:
 
 ### **V3 — Current Release**
 * **Diagnostic Tools Module:** Upgraded the interactive comparison tab to a dedicated **Diagnostic Tools** engine featuring:
-    * **Comparative PCA:** Instant exploratory diagnostic PCA before and after pretreatment (fixed at 5 PCs, 95% confidence interval).
-    * **Argument Safety Restrictions:** Presets for safer and more stable pretreatment configurations.
+    * **Comparative PCA:** Streamlined tool for exploratory diagnostic analysis before and after pretreatment (fixed at 5 PCs, 95% confidence interval).
+    * **Argument Safety Restrictions:** Simplified parameters for safer and easier pretreatment configuration.
 * **Robust Variable Preprocessing:** Added **Median Centering** for non-parametric normalization workflows.
 * **Data Transposition Tool:** Integrated one-click transpose toggle to flip orientation between samples in rows or columns.
 * **CWA Workspace Serialization:** Save and restore workspace states in `.RData` format for seamless inter-module data transfer across the CWA platform.
@@ -147,7 +145,7 @@ This application is distributed under proprietary closed-source terms (the under
 > This software, its interface designs, compiled binaries, and underlying analytical workflows are protected under Intellectual Property laws (Brazilian Software Law No. 9.609/98 and Industrial Property Law No. 9.279/96) and registered at the **National Institute of Industrial Property (INPI)**.
 
 ### **Terms of Use & Protection Clause:**
-1. **Mandatory Attribution & Citation:** Any academic work, scientific article, technical report, software integration, or presentation utilizing or referencing this application **must explicitly credit** the authors (**Bernardo Cardeal Darzé, José Licarion Pinto Segundo Neto, Aderval Severino Luna, Paulo Henrique Couto Simões, Julio Cesar Siqueira, I. C. A. Lima**) and the **Process Analytical Technology Laboratory ([LTAP-UERJ](https://www.ltapuerj.com.br/))**, and cite the published scientific paper:
+1. **Mandatory Attribution & Citation:** Any academic work, scientific article, technical report, software integration, or presentation utilizing or referencing this application **must explicitly credit** the authors (**Bernardo Cardeal Darzé, I. C. A. Lima, José Licarion Pinto Segundo Neto, Aderval Severino Luna**) and the **Process Analytical Technology Laboratory ([LTAP-UERJ](https://www.ltapuerj.com.br/))**, and cite the published scientific paper:
    > B.C. Darzé, I.C.A. Lima, L. Pinto, A.S. Luna, *Chemometrics web app part 1: data handling*, Chemometrics and Intelligent Laboratory Systems, 231 (2022) 104696. DOI: [10.1016/j.chemolab.2022.104696](https://doi.org/10.1016/j.chemolab.2022.104696)
 2. **Prohibition of Unauthorized Reproduction & Redistribution:** Copying, modifying, decompiling, reverse engineering, re-licensing, sub-licensing, mirroring, or redistributing the binary executables or deployment packages without explicit prior written consent from LTAP-UERJ is strictly prohibited.
 3. **Non-Commercial Use Only:** The application may only be used for personal, educational, or non-commercial academic research purposes unless a specific commercial license has been granted by LTAP-UERJ.
@@ -172,3 +170,4 @@ We acknowledge financial and institutional support from **UERJ**, **FAPERJ** (JC
   <a href="https://www.gov.br/cnpq/pt-br">CNPq</a> •
   <a href="https://www.gov.br/capes/pt-br">CAPES</a>
 </p>
+```
